@@ -1,0 +1,5 @@
+{
+  "name": "Ediflor Modern - Business & Services",
+  "description": "A professional, modern corporate website for facility management and cleaning services, featuring AI-powered job applications and search grounding.",
+  "requestFramePermissions": ["geolocation"]
+}
