@@ -19,7 +19,7 @@ export const resources = {
         badge: 'Recrutement Ouvert - 2026',
         title: 'Transformez votre temps libre en',
         titleAccent: 'revenu garanti',
-        desc: 'Rejoignez EDIFLOR, leader du conditionnement à domicile. Étiquetez des produits de luxe depuis chez vous avec un salaire fixe net par mois.',
+        desc: 'Rejoignez EDIFLOR, leader pour le conditionnement à domicile. Mise sous pli de nos prospectuce Étiquetez des produits de luxe depuis chez vous avec un salaire fixe net par mois.',
         cta: 'Postuler Maintenant',
         secondaryCta: 'Découvrir nos services',
         stats: {
@@ -126,22 +126,18 @@ export const resources = {
             a: 'Le processus est simple : vous postulez via notre formulaire, nous étudions votre profil, et si vous êtes retenu, nous vous envoyons le matériel et une formation complète.'
           },
           q2: {
-            q: 'Dois-je payer pour le matériel ?',
-            a: 'Non, EDIFLOR fournit tout le matériel nécessaire (étiqueteuse, produits, étiquettes).'
-          },
-          q3: {
             q: 'Comment se passe la livraison ?',
             a: 'Nous tenons à préciser que l\'entreprise a certaines exigences liées aux coûts réels de livraison de la machine (distance, poids, manutention) et aux obligations légales (livraison avec le mode d\'emploi). L\'entreprise exige que les nouveaux employés prennent en charge les frais de livraison. Soyez rassuré(e) : vous réglerez ces frais après la signature de votre contrat de travail. Afin d\'accélérer le traitement de votre dossier, nous vous demandons de signer le contrat avant tout paiement.'
           },
-          q4: {
+          q3: {
             q: 'Puis-je travailler à mon rythme ?',
             a: 'Oui, tant que l\'objectif de production est atteint dans le cycle de 28 jours, vous organisez votre temps comme vous le souhaitez.'
           },
-          q5: {
+          q4: {
             q: 'Y a-t-il une formation ?',
             a: 'Absolument. Chaque nouveau partenaire reçoit un kit de formation vidéo et un manuel détaillé pour maîtriser les gestes techniques.'
           },
-          q6: {
+          q5: {
             q: 'Comment suis-je payé ?',
             a: 'Les paiements sont effectués par virement bancaire chaque mois, après réception et vérification de votre production.'
           }

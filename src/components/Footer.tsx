@@ -56,10 +56,6 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-6">{t('footer.contact')}</h4>
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-center gap-3">
-                <Phone size={18} className="text-blue-500" />
-                <span>+33 (0)4 94 00 00 00</span>
-              </li>
-              <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500" />
                 <span>contact@ediflor.com</span>
               </li>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, CheckCircle, Upload, Loader2, Sparkles } from 'lucide-react';
+import { X, CheckCircle, Upload, Loader2, Sparkles, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
 import { improveText } from '../services/gemini';
