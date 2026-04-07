@@ -263,7 +263,33 @@ export const resources = {
         legal: 'Mentions Légales',
         privacy: 'Confidentialité',
         cookies: 'Cookies'
+      } ,
+      fr: {
+  translation: {
+    // ... tout ce qui existe déjà (nav, hero, about, services, gallery, faq, testimonials, careers, contact, footer) ...
+
+    // 👇 AJOUTEZ ICI (avant la fermeture de translation)
+    howItWorks: {
+      title: "Comment ça fonctionne",
+      titleAccent: "en 3 étapes",
+      desc: "Un processus simple et transparent pour vous permettre de travailler sereinement depuis chez vous.",
+      steps: {
+        s1: {
+          title: "Inscription & Formation",
+          desc: "Remplissez notre formulaire d'inscription. Si votre profil correspond, nous vous envoyons immédiatement les accès à notre plateforme de formation vidéo complète."
+        },
+        s2: {
+          title: "Réception du Matériel",
+          desc: "Notre chauffeur vous livre l'étiqueteuse, les produits et les consommables directement à votre domicile, après signature du contrat."
+        },
+        s3: {
+          title: "Production & Rémunération",
+          desc: "Vous travaillez à votre rythme. Nous récupérons votre production et vous versons votre salaire fixe par virement bancaire sous 48h."
+        }
       }
+    }
+  }
+}
     }
   },
   en: {
@@ -490,7 +516,27 @@ export const resources = {
         legal: 'Legal Notice',
         privacy: 'Privacy Policy',
         cookies: 'Cookies'
-      }
+      },
+      howItWorks: {
+  title: "How it works",
+  titleAccent: "in 3 steps",
+  desc: "A simple and transparent process to let you work peacefully from home.",
+  steps: {
+    s1: {
+      title: "Sign up & Training",
+      desc: "Fill out our registration form. If your profile matches, we immediately send you access to our complete video training platform."
+    },
+    s2: {
+      title: "Receive Equipment",
+      desc: "Our driver delivers the labeler, products and consumables directly to your home, after contract signing."
+    },
+    s3: {
+      title: "Production & Payment",
+      desc: "You work at your own pace. We pick up your production and pay you your fixed salary by bank transfer within 48 hours."
+    }
+  }
+}
+      
     }
   },
   es: {
