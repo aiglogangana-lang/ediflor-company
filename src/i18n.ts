@@ -291,7 +291,8 @@ export const resources = {
   }
 }
     }
-  },
+  } ,
+  
   en: {
     translation: {
       nav: {
