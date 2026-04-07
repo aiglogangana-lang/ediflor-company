@@ -44,7 +44,7 @@ export const resources = {
         desc2: 'Notre mission est simple : allier la rigueur industrielle à la flexibilité du travail à domicile. Nous fournissons tout le matériel nécessaire pour que vous puissiez réussir vos missions en toute sérénité.',
         more: 'En savoir plus sur notre histoire',
         points: {
-          p1: 'Matériel professionnel fourni gratuitement',
+          p1: 'Matériel professionnel fourni ',
           p2: 'Formation complète et accompagnement continu',
           p3: 'Logistique de livraison et ramassage incluse',
           p4: 'Contrat de travail stable et sécurisé'
