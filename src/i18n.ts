@@ -8,6 +8,26 @@ export const resources = {
       nav: {
         home: 'Accueil',
         about: 'À Propos',
+        howItWorks: {
+  badge: 'Comment ça marche ?',
+  title: 'Simple comme',
+  titleAccent: '1, 2, 3',
+  desc: 'En quelques étapes simples, commencez à gagner depuis chez vous.',
+  steps: {
+    s1: {
+      title: 'Postulez en ligne',
+      desc: 'Remplissez notre formulaire de candidature en quelques minutes. Notre équipe étudie votre profil sous 48h.'
+    },
+    s2: {
+      title: 'Recevez votre matériel',
+      desc: 'Après validation, nous vous livrons gratuitement tout le matériel nécessaire directement à votre domicile.'
+    },
+    s3: {
+      title: 'Travaillez et percevez',
+      desc: 'Réalisez vos missions à votre rythme et recevez votre salaire fixe chaque mois par virement bancaire.'
+    }
+  }
+},
         services: 'Recrutement',
         gallery: 'Galerie',
         faq: 'FAQ',
@@ -264,32 +284,6 @@ export const resources = {
         privacy: 'Confidentialité',
         cookies: 'Cookies'
       } ,
-      fr: {
-  translation: {
-    // ... tout ce qui existe déjà (nav, hero, about, services, gallery, faq, testimonials, careers, contact, footer) ...
-
-    // 👇 AJOUTEZ ICI (avant la fermeture de translation)
-    howItWorks: {
-      title: "Comment ça fonctionne",
-      titleAccent: "en 3 étapes",
-      desc: "Un processus simple et transparent pour vous permettre de travailler sereinement depuis chez vous.",
-      steps: {
-        s1: {
-          title: "Inscription & Formation",
-          desc: "Remplissez notre formulaire d'inscription. Si votre profil correspond, nous vous envoyons immédiatement les accès à notre plateforme de formation vidéo complète."
-        },
-        s2: {
-          title: "Réception du Matériel",
-          desc: "Notre chauffeur vous livre l'étiqueteuse, les produits et les consommables directement à votre domicile, après signature du contrat."
-        },
-        s3: {
-          title: "Production & Rémunération",
-          desc: "Vous travaillez à votre rythme. Nous récupérons votre production et vous versons votre salaire fixe par virement bancaire sous 48h."
-        }
-      }
-    }
-  }
-}
     }
   } ,
   
@@ -298,6 +292,26 @@ export const resources = {
       nav: {
         home: 'Home',
         about: 'About',
+        howItWorks: {
+  badge: 'How it works',
+  title: 'Simple as',
+  titleAccent: '1, 2, 3',
+  desc: 'In a few simple steps, start earning from home.',
+  steps: {
+    s1: {
+      title: 'Apply online',
+      desc: 'Fill out our application form in minutes. Our team reviews your profile within 48 hours.'
+    },
+    s2: {
+      title: 'Receive your equipment',
+      desc: 'After validation, we deliver all necessary equipment directly to your home for free.'
+    },
+    s3: {
+      title: 'Work and earn',
+      desc: 'Complete your missions at your own pace and receive your fixed salary every month by bank transfer.'
+    }
+  }
+},
         services: 'Recruitment',
         gallery: 'Gallery',
         faq: 'FAQ',
@@ -517,27 +531,7 @@ export const resources = {
         legal: 'Legal Notice',
         privacy: 'Privacy Policy',
         cookies: 'Cookies'
-      },
-      howItWorks: {
-  title: "How it works",
-  titleAccent: "in 3 steps",
-  desc: "A simple and transparent process to let you work peacefully from home.",
-  steps: {
-    s1: {
-      title: "Sign up & Training",
-      desc: "Fill out our registration form. If your profile matches, we immediately send you access to our complete video training platform."
-    },
-    s2: {
-      title: "Receive Equipment",
-      desc: "Our driver delivers the labeler, products and consumables directly to your home, after contract signing."
-    },
-    s3: {
-      title: "Production & Payment",
-      desc: "You work at your own pace. We pick up your production and pay you your fixed salary by bank transfer within 48 hours."
-    }
-  }
-}
-      
+      },    
     }
   },
   es: {
