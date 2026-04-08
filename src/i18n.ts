@@ -8,26 +8,6 @@ export const resources = {
       nav: {
         home: 'Accueil',
         about: 'À Propos',
-        howItWorks: {
-  badge: 'Comment ça marche ?',
-  title: 'Simple comme',
-  titleAccent: '1, 2, 3',
-  desc: 'En quelques étapes simples, commencez à gagner depuis chez vous.',
-  steps: {
-    s1: {
-      title: 'Postulez en ligne',
-      desc: 'Remplissez notre formulaire de candidature en quelques minutes. Notre équipe étudie votre profil sous 48h.'
-    },
-    s2: {
-      title: 'Recevez votre matériel',
-      desc: 'Après validation, nous vous livrons gratuitement tout le matériel nécessaire directement à votre domicile.'
-    },
-    s3: {
-      title: 'Travaillez et percevez',
-      desc: 'Réalisez vos missions à votre rythme et recevez votre salaire fixe chaque mois par virement bancaire.'
-    }
-  }
-},
         services: 'Recrutement',
         gallery: 'Galerie',
         faq: 'FAQ',
@@ -35,6 +15,26 @@ export const resources = {
         contact: 'Contact',
         language: 'Langue'
       },
+             howItWorks: {
+        badge: 'Comment ça marche ?',
+        title: 'Simple comme',
+        titleAccent: '1, 2, 3',
+        desc: 'En quelques étapes simples, commencez à gagner depuis chez vous.',
+        steps: {
+          s1: {
+            title: 'Postulez en ligne',
+            desc: 'Remplissez notre formulaire de candidature en quelques minutes. Notre équipe étudie votre profil sous 48h.'
+          },
+          s2: {
+            title: 'Recevez votre matériel',
+            desc: 'Après validation, nous vous livrons gratuitement tout le matériel nécessaire directement à votre domicile.'
+          },
+          s3: {
+            title: 'Travaillez et percevez',
+            desc: 'Réalisez vos missions à votre rythme et recevez votre salaire fixe chaque mois par virement bancaire.'
+          }
+        }
+      },  
       hero: {
         badge: 'Recrutement Ouvert - 2026',
         title: 'Transformez votre temps libre en',
@@ -292,26 +292,6 @@ export const resources = {
       nav: {
         home: 'Home',
         about: 'About',
-        howItWorks: {
-  badge: 'How it works',
-  title: 'Simple as',
-  titleAccent: '1, 2, 3',
-  desc: 'In a few simple steps, start earning from home.',
-  steps: {
-    s1: {
-      title: 'Apply online',
-      desc: 'Fill out our application form in minutes. Our team reviews your profile within 48 hours.'
-    },
-    s2: {
-      title: 'Receive your equipment',
-      desc: 'After validation, we deliver all necessary equipment directly to your home for free.'
-    },
-    s3: {
-      title: 'Work and earn',
-      desc: 'Complete your missions at your own pace and receive your fixed salary every month by bank transfer.'
-    }
-  }
-},
         services: 'Recruitment',
         gallery: 'Gallery',
         faq: 'FAQ',
@@ -319,6 +299,27 @@ export const resources = {
         contact: 'Contact',
         language: 'Language'
       },
+        howItWorks: {
+        badge: 'How it works',
+        title: 'Simple as',
+        titleAccent: '1, 2, 3',
+        desc: 'In a few simple steps, start earning from home.',
+        steps: {
+          s1: {
+            title: 'Apply online',
+            desc: 'Fill out our application form in minutes. Our team reviews your profile within 48 hours.'
+          },
+          s2: {
+            title: 'Receive your equipment',
+            desc: 'After validation, we deliver all necessary equipment directly to your home for free.'
+          },
+          s3: {
+            title: 'Work and earn',
+            desc: 'Complete your missions at your own pace and receive your fixed salary every month by bank transfer.'
+          }
+        }
+      },
+          
       hero: {
         badge: 'Open Recruitment - 2026',
         title: 'Turn your free time into',
