@@ -36,6 +36,16 @@ const RecruitmentModal = ({ isOpen, onClose, initialPost = '' }: RecruitmentModa
     }
   }, [isOpen, initialPost]);
 
+  // Redirection automatique vers la page d'accueil après succès
+  useEffect(() => {
+    if (isSuccess) {
+      const timer = setTimeout(() => {
+        window.location.href = '/'; // Redirige vers la page d'accueil
+      }, 2000); // Délai de 2 secondes pour laisser le message de succès s'afficher
+      return () => clearTimeout(timer);
+    }
+  }, [isSuccess]);
+
   const handleImproveMessage = async () => {
     if (!formData.message) return;
     setAiLoading(true);
@@ -131,13 +141,8 @@ const RecruitmentModal = ({ isOpen, onClose, initialPost = '' }: RecruitmentModa
                     <CheckCircle size={48} />
                   </div>
                   <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-3 tracking-tight">{t('careers.form.success')}</h2>
-                  <p className="text-gray-500 dark:text-gray-400 mb-10 max-w-xs mx-auto leading-relaxed">{t('careers.form.successMsg')}</p>
-                  <button 
-                    onClick={onClose}
-                    className="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/25 active:scale-95"
-                  >
-                    {t('careers.form.back')}
-                  </button>
+                  <p className="text-gray-500 dark:text-gray-400 mb-6 max-w-xs mx-auto leading-relaxed">{t('careers.form.successMsg')}</p>
+                  <p className="text-sm text-blue-600 dark:text-blue-400 animate-pulse">Redirection vers l'accueil...</p>
                 </div>
               ) : (
                 <>
